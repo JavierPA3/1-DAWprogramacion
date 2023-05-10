@@ -1,4 +1,9 @@
-"""Comentarios TODO"""
+"""Este programa es un menú que ejecuta las siguientes opciones:
+    create_test_file: Crea un fichero para hacer el test, tiene que tener la extensión (xml o json).
+    select_file_test: Seleccionamos el fichero dónde queremos almacenar las preguntas.
+    add_question_to_test: Añade una pregunta al test.
+
+"""
 import AutoTest as AT
 from menu import Menu
 cash_register = Menu("Test", "Crear fichero test. ", "Seleccionar fichero Test. ", "Añadir pregunta al test")
