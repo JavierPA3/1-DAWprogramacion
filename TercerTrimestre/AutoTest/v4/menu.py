@@ -36,7 +36,7 @@ class Menu:
     def choose_option(self):
         self.__print_menu()
         while True:
-            option_chose = int(input("Que opción va a elegir?"))
+            option_chose = int(input("¿Que opción va a elegir? "))
             if option_chose > len(self.__options):
                 print("Error, has elegido una opción fuera del rango de las opciones.")
             else:
